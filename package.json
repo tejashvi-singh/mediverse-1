@@ -1,0 +1,11 @@
+{
+  "name": "mediverse-firebase-starter",
+  "private": true,
+  "workspaces": [
+    "web",
+    "functions"
+  ],
+  "scripts": {
+    "dev": "pnpm -C functions dev & pnpm -C web dev"
+  }
+}
